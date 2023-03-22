@@ -12,7 +12,10 @@
 </head>
 
 <body class="container">
-  <aside class="sidebar">
+  
+  <aside class="sidebar" id="sidebar">
+    <input type="button" id="btn">
+    <label for="btn" class="mudar-tema" id="button"></label>
     <img src="./imagens/logo.png" alt="Logo do bytebank" />
     <img src="./imagens/avatar1.png" alt="Avatar do usuário" class="sidebar__avatar" />
     <h2>Queren Hapuque</h2>
@@ -25,31 +28,33 @@
     </nav>
   </aside>
 
-  <main class="dados">
-    <header class="cabecalho">
+  <main class="dados" id="main">
+    <header class="cabecalho" id="cabecalho">
       <h2>Olá, Queren! Estes são os detalhes da sua cotação:</h2>
     </header>
 
-    <article class="dadosDolar">
+    <article class="dadosDolar" id="balao">
       <div class="grafico">
         <div class="grafico__titulo">
           <span class="grafico__ilustracao-dolar"></span>
-          <h2>Variação da moeda desde o login</h2>
+          <h2 class="titulo">Variação da moeda desde o login</h2>
         </div>
 
       </div>
 
       <div class="investimentos">
-        <h2>Valores da moeda</h2>
+        <h2 id="titulo" class="titulo">Valores da moeda</h2>
         <ul class="investimentos__lista" id="dolar" data-lista>
         </ul>
       </div>
     </article>
 
-    <footer class="rodape">
+    <footer class="rodape" id="rodape">
       <p>Dashboard - Desenvolvido por Queren Hapuque</p>
     </footer>
   </main>
+  <script src="./js/dark-mode.js"></script>
 </body>
+
 
 </html>

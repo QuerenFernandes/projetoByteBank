@@ -2,10 +2,11 @@
 @import url("./styles/cabecalho.css");
 @import url("./styles/rodape.css");
 @import url("./styles/sidebar.css");
+@import url("./styles/dark-mode.css");
 
 :root {
-    --lilas: #E4E9F6;
-    --roxo: black;
+    --lilas: #FDEEDC;
+    --laranja: #F2921D  ;
     --verde-claro: #CCF8ED;
     --verde-escuro: #00DEA3;
     --cinza: #444444;

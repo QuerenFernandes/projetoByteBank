@@ -1,0 +1,50 @@
+:root {
+    --label-icon: url("../imagens/moon-dark.png");
+    --label-icon-branco: url("../imagens/moon.png");
+    --branco: #FFFFFF;
+    --preto: #010101;
+}
+
+
+.mudar-tema {
+    background: var(--label-icon);
+    background-repeat: no-repeat;
+    padding: 30px;
+    position: absolute;
+    margin-top: -70px;
+    margin-right: 180px;
+    cursor: pointer;
+}
+
+.mudar-icone {
+    background: var(--label-icon-branco); 
+    background-repeat: no-repeat;
+    padding: 30px;
+    position: absolute;
+    margin-top: -70px;
+    margin-right: 180px;
+    cursor: pointer;
+}
+
+#btn {
+    display: none;
+}
+
+.dark-mode {
+    background-color: var(--preto);
+
+}
+
+.dark-mode-sidebar {
+    background-color: #2C3333;
+}
+
+
+.dark-cabecalho {
+    background-color: #2C3333;
+    color: var(--branco);
+}
+
+.dark-titulo {
+    color: var(--branco);
+}

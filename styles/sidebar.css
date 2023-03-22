@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--roxo);
+    background-color: var(--laranja);
     padding: 5em 0;
 
     filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.15));

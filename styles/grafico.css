@@ -34,14 +34,12 @@
 }
 
 .grafico__titulo h2 {
-    color: var(--cinza);
     font-weight: 700;
     font-size: 24px;
 }
 
 .investimentos__lista {
     margin: 2em;
-    color: var(--cinza);
 }
 
 .investimentos__lista li {
