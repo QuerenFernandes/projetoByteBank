@@ -1,5 +1,5 @@
 .dadosDolar,
-.dadosIene {
+.dadosIene, .dadosLibra {
     margin: 3em auto;
     padding: 2em;
     display: flex;
@@ -31,6 +31,11 @@
 
 .grafico__ilustracao-iene {
     background-image: url('../imagens/iene.png');
+}
+
+.grafico__ilustracao-libra {
+    background-image: url('../imagens/libra.png');
+    border-radius: 9px;
 }
 
 .grafico__titulo h2 {

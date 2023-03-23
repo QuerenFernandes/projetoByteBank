@@ -32,19 +32,23 @@
 
 .dark-mode {
     background-color: var(--preto);
+    transition: 2s;
 
 }
 
 .dark-mode-sidebar {
     background-color: #2C3333;
+    transition: 2s;
 }
 
 
 .dark-cabecalho {
     background-color: #2C3333;
     color: var(--branco);
+    transition: 2s;
 }
 
 .dark-titulo {
     color: var(--branco);
+    transition: 2s;
 }
