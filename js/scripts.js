@@ -28,6 +28,7 @@ function adicionarDados(grafico, legenda, dados) {
     grafico.update();
 }
 
+// GRÁFICO DÓLAR
 let workerDolar = new Worker('./js/workers/workerDolar.js');
 workerDolar.postMessage('usd');
 
@@ -38,6 +39,8 @@ workerDolar.addEventListener("message", event => {
     adicionarDados(graficoParaDolar, tempo, valor);
 })
 
+
+// GRÁFICO IENE
 const graficoIene = document.getElementById('graficoIene');
 const graficoParaIene = new Chart(graficoIene, {
     type: 'line',
@@ -51,7 +54,7 @@ const graficoParaIene = new Chart(graficoIene, {
     }
 })
 
-let workerIene = new Worker('./js/workers/workerIene.js')
+let workerIene = new Worker('./js/workers/workerIene.js');
 workerIene.postMessage('iene');
 workerIene.addEventListener("message", event => {
     let tempo = geraHorario();
@@ -59,3 +62,30 @@ workerIene.addEventListener("message", event => {
     selecionaCotacao("iene", valor);
     adicionarDados(graficoParaIene, tempo, valor);
 })
+
+// GRÁFICO LIBRA
+const graficoLibra = document.getElementById('graficoLibra');
+const graficoParaLibra = new Chart(graficoLibra, {
+    type: 'line',
+    data: {
+        labels: [],
+        datasets: [{
+            label: 'Libra',
+            data: [],
+            borderWidth: 1
+        }]
+    }
+});
+
+let workerLibra = new Worker('./js/workers/workerLibra.js');
+workerLibra.postMessage('libra');
+
+workerLibra.addEventListener("message", event => {
+    let tempo = geraHorario();
+    let valor = event.data.ask;
+    adicionarDados(graficoParaLibra, tempo, valor);
+    selecionaCotacao("libra", valor);
+})
+
+
+
