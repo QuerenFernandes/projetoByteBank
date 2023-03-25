@@ -52,3 +52,19 @@
     color: var(--branco);
     transition: 2s;
 }
+
+.animacao {
+    animation: animacao 2s ease-in-out;
+
+}
+
+@keyframes animacao {
+	0% {
+		margin-left: 100%;
+        
+	}
+	100% {
+        margin-left: 0%;
+
+	}
+}
