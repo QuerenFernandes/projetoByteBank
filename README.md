@@ -1,17 +1,14 @@
-# Nome do meu projeto
+# Projeto ByteBank
 
-Rápida descrição do objetivo de fazer esse projeto
+Essa é uma aplicação de integração com a awesomeapi, a qual possibilita a cotação das moedas em tempo real, tudo feito com Javascript. Fiz SOZINHA, a inclusão de uma nova moeda, além de codar o Dark Mode e a animação do ícone da Lua. Aproveitei e também fiz uma caricatura pra representar o meu perfil, além de escolher as cores do projeto.
 
-| :placard: Vitrine.Dev |     |
-| -------------  | --- |
-| :sparkles: Nome        | **Titulo do meu projeto**
-| :label: Tecnologias | java, html, ruby, c# (tecnologias utilizadas)
-| :rocket: URL         | https://url-deploy.com.br
-| :fire: Desafio     | https://url-do-desafio.com.br
+As requisições são feitas a cada 3 segundos trabalhando com multithreads através de webworkers (que nos ajuda a trabalhar com outras threads além da principal).
 
-<!-- Inserir imagem com a #vitrinedev ao final do link -->
-![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+Além da cotação também é possível visualizar a conversão de cada uma das moedas, mostrando o valor em Real.
 
-## Detalhes do projeto
 
-Textos e imagens que descrevam seu projeto, suas conquistas, seus desafios, próximos passos, etc...
+Você pode ver o projeto completo em: 
+
+https://user-images.githubusercontent.com/95857175/227718448-e66962d9-668c-418d-a110-d220053998cc.mp4#vitrinedev
+
+
