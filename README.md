@@ -7,7 +7,7 @@ As requisições são feitas a cada 3 segundos trabalhando com multithreads atra
 Além da cotação também é possível visualizar a conversão de cada uma das moedas, mostrando o valor em Real.
 
 
-Você pode ver o projeto completo em: 
+Você pode ver o projeto completo em: https://querenhapuquerocha.github.io/projetoByteBank/
 
 https://user-images.githubusercontent.com/95857175/227718448-e66962d9-668c-418d-a110-d220053998cc.mp4#vitrinedev
 
